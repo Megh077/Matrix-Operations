@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+}
+header {
+    background-color: rgb(146, 55, 55);
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+.heading{
+    padding: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.operations-active{
+    display: inline-block;
+    text-align: center;
+
+}
+.operations-inactive{
+    display: inline-block;
+    text-align: center;
+
+}
+.operations-inactive a {
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+    padding: 10px 70px 0px 70px;
+    
+}
+
+.operations-active a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 70px 0px 70px;
+    display: inline-block;
+    text-align: center;
+}
+
+.operations a:hover {
+    text-decoration: underline;
+}
+
+
+.input-boxes {
+    margin-top: 60px;
+}
+.input-boxes input{
+    border-color: black;
+    padding: 10px;
+}
+
+.generate-matrix{
+    margin-top: 20px;
+}
+
+.generate-matrix button {
+    background-color: rgb(143, 190, 143);
+    padding: 12px;
+    
+}
+
+
+.calculate-matrix button {
+    background-color: rgb(228, 83, 83);
+    padding: 12px;
+   
+}
+
+
+.calculate-matrix {
+    margin-top: 20px;
+    display: none;
+}
+
+.input-matrices, .result-container {
+    margin-top: 20px;
+}
+.input-matrices input{
+    border-color: black;
+}
+
+.eachMatrix ,.resultMatrix,.eachMatrix1,.eachMatrix2 {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.eachMatrix input,.resultMatrix input ,.eachMatrix1 input,.eachMatrix2 input{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 2px;
+}
+.resultMatrix input{
+    background-color: white;
+    border-color: black;
+}
+
+
